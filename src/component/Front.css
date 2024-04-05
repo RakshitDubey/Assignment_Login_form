@@ -1,0 +1,36 @@
+/* WelcomePage.css */
+.container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-account-btn,
+  .login-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .buttons {
+      flex-direction: row;
+    }
+  
+    .create-account-btn,
+    .login-btn {
+      margin: 5px;
+    }
+  }
+  
