@@ -11,7 +11,7 @@ function Register() {
   const [isAgency, setIsAgency] = useState(false);
   const navigate=useNavigate()
 
-      navigate('/profile')
+      
 
 
   const handleRegister = (e) => {
